@@ -15,18 +15,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AgZ-A1-Pe2">
+                                <rect key="frame" x="15" y="54" width="384" height="401.5"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
+                            <view autoresizesSubviews="NO" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yjf-sW-qEC">
+                                <rect key="frame" x="15" y="470.5" width="384" height="401.5"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yjf-sW-qEC" secondAttribute="trailing" constant="15" id="0eh-R8-dez"/>
+                            <constraint firstItem="Yjf-sW-qEC" firstAttribute="width" secondItem="AgZ-A1-Pe2" secondAttribute="width" id="8bg-IA-wTT"/>
+                            <constraint firstItem="AgZ-A1-Pe2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="D4z-eD-tYn"/>
+                            <constraint firstItem="AgZ-A1-Pe2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="Y7k-v1-JdD"/>
+                            <constraint firstItem="Yjf-sW-qEC" firstAttribute="height" secondItem="AgZ-A1-Pe2" secondAttribute="height" id="d23-zd-wkC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AgZ-A1-Pe2" secondAttribute="trailing" constant="15" id="dbi-8O-Hzt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AgZ-A1-Pe2" secondAttribute="trailing" constant="15" id="hja-g4-Epx"/>
+                            <constraint firstItem="AgZ-A1-Pe2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="pXM-PO-evD"/>
+                            <constraint firstItem="Yjf-sW-qEC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="rd6-Ne-YFg"/>
+                            <constraint firstItem="Yjf-sW-qEC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="10" id="svt-Wf-uAw"/>
+                            <constraint firstItem="Yjf-sW-qEC" firstAttribute="top" secondItem="AgZ-A1-Pe2" secondAttribute="bottom" constant="15" id="wA1-f9-idg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120" y="-2"/>
+            <point key="canvasLocation" x="115.94202898550725" y="-4.6875"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
